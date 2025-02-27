@@ -484,7 +484,7 @@ $form-text-color: $body-color !default;
 // scss-docs-end form-text-variables
 
 // scss-docs-start form-label-variables
-$form-label-margin-bottom: 0.25rem !default;
+$form-label-margin-bottom: 0.5rem !default;
 $form-label-font-size: $input-btn-font-size-sm !default;
 $form-label-color: $headings-color !default;
 $form-label-letter-spacing: inherit !default; //(C)
@@ -756,8 +756,8 @@ $pagination-border-radius-lg: $pagination-border-radius-sm !default;
 // *******************************************************************************
 
 $card-title-color: $headings-color !default;
-$card-spacer-y: $spacer * 1.5 !default;
-$card-spacer-x: $spacer * 1.5 !default;
+$card-spacer-y: $spacer !default;
+$card-spacer-x: $spacer !default;
 $card-title-spacer-y: $spacer * 0.5 !default;
 $card-subtitle-color: rgba-to-hex(rgba($black, 0.55), $rgba-to-hex-bg) !default;
 $card-spacer-x-sm: 1rem !default; // (C)
